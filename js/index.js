@@ -1,4 +1,4 @@
-function deleteItem(e){
+function deleteItem(event){
 
 }
 

@@ -104,7 +104,7 @@ Associate the "Delete" buttons to click events so that when you click one, it de
 	- Select the parent that contains all of the product wrapper divs
 	- Use the function `removeChild` we saw in [DOM Manipulators](https://hackmd.io/MwBgRgHAjATArMAtANjsgxogLAU3QQ0QmQHZlEdgox8BOE9EsAMzCA==)
 
-:bulb: Use `e.currentTarget` to access the "Delete" button that was just clicked and select the parent node of an HTML element with `parentNode`.
+:bulb: Use `event.currentTarget` to access the "Delete" button that was just clicked and select the parent node of an HTML element with `parentNode`.
 
 ### Iteration 5: Creating new products
 
