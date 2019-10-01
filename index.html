@@ -6,9 +6,60 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./js/index.js"></script>
   <title>Ironhack cart</title>
 </head>
 <body>
+<h1> Iron Merchandising Shop </h1>
+<div class="wrapperProduct1">
+<div class="productname">
+  <span>IronBubble Head</span>
+</div>
+<div class="costofunit">
+    <span>Unit value $: <span class="precio-del-producto">25</span></span>
+  </div>
+<div class="etiqueta">
+  <form>
+        QTY <input class="cantidad-btn" value="0"type="number" name="quantity">
+  </form>
+</div>
+<div class="showTotalPrice">
+  <span>Total $:  <span class="totalPrice">0</span>
+</span>
+</div>
+  <div class="button">
+      <button class="btn-delete btn" type="button">Delete</button>
+
+  </div>
+</div> 
+
+<div class="wrapperProduct2">
+    <div class="productname">
+      <span>IronShirt</span>
+    </div>
+    <div class="costofunit">
+        <span>Unit value $: <span class="precio-del-producto">25</span></span>
+      </div>
+    <div class="etiqueta">
+      <form>
+        QTY <input class="cantidad-btn" value="0"type="number" name="quantity">
+      </form>
+    </div>
+    <div class="showTotalPrice">
+      <span>Total $:  <span class="totalPrice">0</span>
+    </span>
+    </div>
+    <div class="button">
+        <button class="btn-delete btn" type="button">Delete</button>
+  
+    </div>
+    </div> 
+
+<div class="btn-calculate">
+    <button id="price-button" class="btn-success btn" type="button">Calculate Prices</button>
+</div>
+
+<h2>Total Price: $ <h2 id="precioAcalcular"> </h2></h2>
+
+  <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
