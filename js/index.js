@@ -22,7 +22,10 @@ event.target.parentElement.remove()
 let itemProduct=document.getElementsByClassName('precio-del-producto')[0].innerText;
 
 function getPriceByProduct(itemNode){
-}
+  if(itemNode === itemProduct){
+    return document.getElementsByClassName('precio-del-producto')[0].innerText;
+  }
+} console.log(getPriceByProduct(itemProduct));
 
 
 
